@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Social Links App
 
 Simple react app that displays Social links in an object.
 
