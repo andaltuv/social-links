@@ -17,11 +17,10 @@ Open SVG file and add Fill property then change it to the color of your choice.
 
 ### How to add CSS
 Search for index.css</br>
-
 Create new class using the name of the ID you used on the object</br>
 Add your custom css and save.</br>
 </br></br>
 
-Congratulations you are done! All is left to do is to create a build and you are all set.
+##Congratulations you are done! All is left to do is to create a build and you are all set.
 
 
