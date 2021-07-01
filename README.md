@@ -1,6 +1,6 @@
 # Social Links App
 
-Simple react app that displays Social links in an object.
+Simple react app that displays Social links in an array of objects.
 
 ## How to use it?
 ### Add new links
