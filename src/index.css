@@ -1,12 +1,24 @@
-body {
-  background:#dad8f5;
+html {
+  padding:0;
   margin:0;
-  padding:15px;
+
+}
+
+body {
+  background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top,#43C6AC, #191654 );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #43C6AC, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100%;
+  margin: 0;
+  padding:0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
-  margin: 0 auto;
-  width:80%;
+  margin: 30px auto 0 auto;
+  width:40%;
 }
 
 .logo {
@@ -33,7 +45,7 @@ body {
 }
 
 .website {
-  background:#8ac848;
+  background:#6e8698;
 }
 
 .container a {
@@ -61,4 +73,45 @@ body {
 
 .twitter {
   background:#52a7e7;
+}
+
+
+footer{
+  background:#1b2023;
+  bottom:0;
+  color:#fff;
+  padding:10px 0 15px 0;
+  position:fixed;
+  text-align:center;
+  width:100%;
+}
+
+footer a {
+  color:#fff;
+  text-decoration:none;
+}
+
+footer > a:visited {
+  color:#fff;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+  .container {
+    width:40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .container {
+    margin: 0 auto;
+    width:90%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  .container {
+    width:80%;
+  }
 }
