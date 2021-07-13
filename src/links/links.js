@@ -24,5 +24,4 @@ export const links = [
         'id':'github',
         'url':'github.com/andaltuv'
     }
-
 ]

@@ -4,7 +4,7 @@ export const Footer = () => {
 
     return(
         <footer>
-            <a href="https://github.com/andaltuv/social-links">Social Links</a>
+            <a href="https://andresaltuve.com">Andrés Altuve</a>
         </footer>
     )
 

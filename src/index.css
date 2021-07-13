@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+
 html {
   padding:0;
   margin:0;
@@ -8,7 +11,7 @@ body {
   background: #43C6AC;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top,#43C6AC, #191654 );  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #43C6AC, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
   padding:0;
@@ -38,7 +41,7 @@ background: linear-gradient(to top, #43C6AC, #191654); /* W3C, IE 10+/ Edge, Fir
   width:50px;
 }
 
-.instagram, .website, .twitter, .github {
+.instagram, .website, .twitter, .github, .newsletter-form-link {
   margin-bottom:15px;
   padding:10px 0 6px 0;
   text-align:center;
@@ -75,6 +78,17 @@ background: linear-gradient(to top, #43C6AC, #191654); /* W3C, IE 10+/ Edge, Fir
   background:#52a7e7;
 }
 
+.newsletter-form-link {
+  background:#4b0082;
+ 
+}
+
+.newsletter-form-link span {
+  color:#fff;
+  margin-left:15px;
+  position:relative;
+  top:-9px;
+}
 
 footer{
   background:#1b2023;
@@ -91,10 +105,35 @@ footer a {
   text-decoration:none;
 }
 
+.newsletter p , .newsletter h3 {
+  color:#fff;
+  text-align:center;
+}
+
 footer > a:visited {
   color:#fff;
 }
 
+.newsletter-form {
+  color:#fff;
+  text-align:center;
+}
+
+.newsletter-form input{
+  border:0;
+  height:30px;
+  margin:5px 0 25px 0;
+  padding:5px;
+  width:100%;
+}
+
+.newsletter-form button {
+  background:#4b0082;
+  border:0;
+  color:#fff;
+  font-size:22px;
+  padding:15px 40px;
+}
 @media only screen and (min-width: 768px) {
   /* tablets and desktop */
   .container {

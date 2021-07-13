@@ -1,13 +1,11 @@
 import React from 'react';
-import { Footer } from './components/Footer/Footer';
-import { LinksList } from './components/Links/LinksList';
+import { SocialLinksRoutes } from './components/Routers/SocialLinksRouter';
 
 export const SocialLinks = () => {
-
+    
     return(
         <>        
-        <LinksList/>
-        <Footer />
+            <SocialLinksRoutes/>
         </>        
     )
 
