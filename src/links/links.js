@@ -23,5 +23,10 @@ export const links = [
     {
         'id':'github',
         'url':'github.com/andaltuv'
+    },
+
+    {
+        'id':'newsletter-form-link',
+        'url': '/boletin'
     }
 ]

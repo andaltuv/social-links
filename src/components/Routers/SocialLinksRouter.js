@@ -6,6 +6,7 @@ import {
   } from "react-router-dom";
 import { SocialLinksScreen } from '../SocialLinks/SocialLinksScreen';
 import ReactGA from 'react-ga';
+import { NewsLetterScreen } from '../NewsLetter/NewsLetterScreen';
 
   export const SocialLinksRoutes = () => {
     useEffect(() => {
@@ -16,9 +17,10 @@ import ReactGA from 'react-ga';
     return(
         <>
 
-            <Router>
+            <Router basename="/links" >
                 <Switch>
-                    <Route path ="/" component = { SocialLinksScreen } />
+                    <Route exact path="/" component = { SocialLinksScreen } />
+                    <Route exact path="/boletin" component = { NewsLetterScreen } />
                 </Switch>
             </Router>
 

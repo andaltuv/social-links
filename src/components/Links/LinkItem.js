@@ -9,7 +9,7 @@ export const LinkItem = ({
 
     if(id === 'newsletter-form-link'){
         return(
-            <div className={`social ${id}`}><Link to='./boletin'><img src={`./icons/${id}.svg`} height="30px"/><span>Suscribirse al boletín</span></Link></div>
+            <div className={`social ${id}`}><Link to={`/boletin`}><img src={`./icons/${id}.svg`} height="30px"/><span>Suscribirse al boletín</span></Link></div>
         )
     }else{
         return(
