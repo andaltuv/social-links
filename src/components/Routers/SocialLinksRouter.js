@@ -10,7 +10,7 @@ import { NewsLetterScreen } from '../NewsLetter/NewsLetterScreen';
 
   export const SocialLinksRoutes = () => {
     useEffect(() => {
-      ReactGA.initialize("UA-55225481-1");
+      ReactGA.initialize("YOUR GA ID");
       ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
 
